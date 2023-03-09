@@ -1,0 +1,146 @@
+body,h2,p{margin: 0;}
+p.a{width: 80px;}
+p.b{width: 110px;}
+p.c{width: 150px;}
+.title{
+    width: 100vw;
+    padding: 10px 30px;
+    background-color: whitesmoke;
+    letter-spacing: 3px;
+    position: fixed;
+    z-index: 10;
+}
+.chinese{
+    font-size: 15px;
+    font-weight: bold;
+    font-family:"微軟正黑體";
+}
+.english{
+    font-size: 12px;
+    color: #888888;
+    font-family: "Helvetica";
+}
+.pack{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.fruit_box{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+#button_right{
+    background: url(./素材包/按鈕1.png) center/cover;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10vw;
+    top: 110px;
+}
+#button_left{
+    background: url(./素材包/按鈕2.png) center/cover;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 10vw;
+    top: 110px;
+}
+.buy{
+    color: whitesmoke;
+    font-family:"微軟正黑體";
+    writing-mode: vertical-lr;
+    position: absolute;
+    right: 10vw;
+    top: 150px;
+}
+.word{
+    color: whitesmoke;
+    font-family:"微軟正黑體";
+    letter-spacing: 2px;
+    text-align: center;
+    position: absolute;
+    width: 100vw;
+    top: 110px;
+}
+
+#button_tomato{
+    /* background-color: palevioletred; */
+    border-radius: 50% 50% 50% 50%;
+    width: 12vw;
+    height: 19vh;
+    position: absolute;
+    left: 43vw;
+    top: 60vh;
+}
+#button_potato{
+    /* background-color: peru; */
+    border-radius: 130% 110% 140% 100%;
+    width: 10vw;
+    height: 19vh;
+    position: absolute;
+    left: 10vw;
+    top: 29vh;
+}
+
+#tomato_box{
+    background-color: whitesmoke;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 57%;
+    padding: 20px 30px;
+    width: 250px;
+    max-width: 28%;
+    top: 150px;
+}
+#potato_box{
+    background-color: whitesmoke;
+    position: absolute;
+    border-radius: 15px;
+    margin-left: 21%;
+    padding: 20px 30px;
+    width: 250px;
+    max-width: 80%;
+    top: 180px;
+}
+
+#slider{
+    width: 100%;
+    padding: 20px 0 0 0;
+}
+.inner{
+    position: relative;
+    height: 20px;
+}
+.track{
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: inset 5px 3px lightgray;
+}
+.thumb{
+    position: absolute;
+    left: 29%; 
+    top: 1px;
+    height: 15px;
+    width: 15px;
+    background-color: #5B5B5B;
+    border-radius: 100%;
+}
+
+#button_check{
+    background: url(./素材包/按鈕3.png) center/cover;
+    width: 15px;
+    height:15px;
+    border: none;
+    position: absolute;
+    left: calc(50% + 50px);
+    bottom: 23px;
+}
